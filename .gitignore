@@ -1,0 +1,34 @@
+# Archivos de configuración
+config/Config.php
+
+# Archivos temporales de drive
+.tmp.driveupload/
+
+# Archivos TODO (Qué hacer)
+# Archivos de tareas pendientes
+TODO/
+
+# Archivos de log
+logs/
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Entornos locales
+.env
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Directorios de compilación (por si usas herramientas en el futuro)
+node_modules/
+dist/
+out/
