@@ -1,4 +1,6 @@
 <?php
+//📄 Archivo: config/Config.example.php
+//🧠 Función: guardar configuraciones globales accesibles desde cualquier parte del proyecto.
 class Config {
     static public $mvc_bd_hostname = "localhost";
     static public $mvc_bd_nombre   = "nombre_bd";

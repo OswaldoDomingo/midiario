@@ -1,5 +1,13 @@
 # CHANGELOG
 
+
+## [0.1.1] - 2025-05-10
+### Añadido
+- Base de datos `diario` creada en MySQL
+- Conexión implementada desde el modelo usando PDO
+- Acción `testdb()` añadida al controlador para verificar conexión
+- Ruta `?ctl=testdb` funcional
+
 ## [0.1.0] - 2025-05-10
 ### Añadido
 - Estructura de carpetas MVC (`app/`, `config/`, `public/`)

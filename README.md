@@ -33,3 +33,10 @@ Su objetivo es ofrecer un espacio personal para almacenar:
 
 Este proyecto se encuentra en etapa de construcción paso a paso.
 
+## ⚙️ Estado
+
+- Estructura MVC funcional
+- Controlador y vista de inicio
+- Base de datos creada y conectada
+- Acción de prueba de conexión (`?ctl=testdb`)
+- Documentación y control de versiones activos

@@ -10,7 +10,7 @@ require_once __DIR__ . '/../app/controller/Controller.php';
 // Definir las rutas (mapeo de acciones)
 $map = [
     'inicio' => ['controller' => 'Controller', 'action' => 'inicio'],
-    // aquí se añadirán más acciones como 'listar', 'insertar'...
+    'testdb' => ['controller' => 'Controller', 'action' => 'testdb'],
 ];
 
 // Determinar la ruta a ejecutar
