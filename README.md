@@ -40,3 +40,8 @@ Este proyecto se encuentra en etapa de construcción paso a paso.
 - Base de datos creada y conectada
 - Acción de prueba de conexión (`?ctl=testdb`)
 - Documentación y control de versiones activos
+## 🎨 Diseño e interfaz
+
+- Se ha integrado **Bootstrap 5.3.3** desde CDN en el archivo `layout.php`
+- La plantilla principal carga tanto los estilos de Bootstrap como los propios (`css/estilos.css`)
+- Se ha dejado preparado el layout para insertar componentes de Bootstrap en las vistas

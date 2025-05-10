@@ -83,6 +83,11 @@ Describe cómo iniciaste el repositorio, estructura inicial y primer push.
 - Vista de inicio
 - Layout general
 
+### 5.3 Integración de Bootstrap
+
+Se ha integrado el framework CSS **Bootstrap 5.3.3** a través de CDN en la plantilla principal `layout.php`.  
+Esto permitirá aplicar estilos consistentes y componentes visuales reutilizables a lo largo de toda la aplicación.
+
 ---
 
 ## 6. Funcionalidades implementadas

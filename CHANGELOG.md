@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [0.1.2] - 2025-05-10
+
+### Añadido
+- Integración de Bootstrap 5 desde CDN en `layout.php`
+- Inclusión de CSS de Bootstrap y script JS en la plantilla general
 
 ## [0.1.1] - 2025-05-10
 ### Añadido

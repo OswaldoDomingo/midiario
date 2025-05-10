@@ -1,0 +1,15 @@
+a {
+    color: white !important;
+    text-decoration: underline !important;
+}
+
+/* Color de los enlaces visitados */
+a:visited {
+    color: #cccccc !important; /* Un gris claro */
+}
+
+/* Mantener el color blanco en el estado hover/active si Bootstrap lo cambiara */
+a:hover,
+a:active {
+    color: white !important;
+}

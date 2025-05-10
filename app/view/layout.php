@@ -4,16 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Mi Diario MVC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <link rel="stylesheet" href="<?= Config::base_url() ?>css/<?= Config::$mvc_vis_css ?>">
-    <script src="<?= Config::base_url() ?>js/app.js" defer></script>
+    <!-- <script src="<?php // Config::base_url() ?>js/app.js" defer></script> -->
 </head>
 <body>
 
     <header>
         <h1>Mi Diario Web</h1>
-        <nav>
-            <a href="index.php?ctl=inicio">Inicio</a>
-            <!-- Aquí se pueden añadir más enlaces -->
+        <nav class = "bg-dark text-light p-3 text-white">
+            <a class="" href="index.php?ctl=inicio">Inicio</a>
+            <a  class="" href="index.php?ctl=testdb">Test</a>
         </nav>
         <hr>
     </header>
@@ -26,7 +27,11 @@
         <hr>
         <p style="text-align:center;">&copy; <?= date('Y') ?> DiarioWeb</p>
     </footer>
+<!-- Bootstrap 5 JS (opcional) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-" crossorigin="anonymous"></script>
 
+<!-- Script personalizado -->
+<script src="<?= Config::base_url() ?>js/app.js" defer></script>
 </body>
 <!-- 
     📄 Archivo: app/view/layout.php
