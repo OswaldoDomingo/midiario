@@ -88,6 +88,22 @@ Describe cómo iniciaste el repositorio, estructura inicial y primer push.
 Se ha integrado el framework CSS **Bootstrap 5.3.3** a través de CDN en la plantilla principal `layout.php`.  
 Esto permitirá aplicar estilos consistentes y componentes visuales reutilizables a lo largo de toda la aplicación.
 
+### 5.4 Creación de la base de datos
+
+Se ha diseñado y creado la base de datos `diario` en MySQL.  
+Contiene una tabla `usuarios` que permite distinguir entre el administrador (id = 0) y usuarios normales.  
+Además, se han creado cinco tablas especializadas para distintos tipos de entradas:
+
+- `nota_diario`
+- `nota_apunte`
+- `nota_libro`
+- `nota_reflexion`
+- `nota_frase`
+
+Todas están relacionadas con la tabla `usuarios` mediante la clave foránea `usuario_id`.  
+La relación tiene activado `ON DELETE CASCADE` para mantener la integridad referencial.  
+Las contraseñas se almacenan de forma segura utilizando hash generado por `password_hash()` en PHP.
+
 ---
 
 ## 6. Funcionalidades implementadas

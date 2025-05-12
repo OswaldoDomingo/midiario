@@ -29,6 +29,16 @@ Su objetivo es ofrecer un espacio personal para almacenar:
 - HTML5, CSS3, JS
 - MVC puro (sin frameworks)
 
+## 🗄️ Base de datos
+
+- Base de datos `diario` creada en MySQL
+- Tabla `usuarios` con control de acceso previsto (administrador y usuarios normales)
+- Tablas especializadas para distintos tipos de notas (diario, apunte, libro, reflexión, frase)
+- Relaciones entre tablas mediante `usuario_id`
+- Soporte para borrado en cascada de notas al eliminar usuario (integridad referencial)
+- Contraseñas encriptadas con `password_hash()` (tipo seguro)
+- Script SQL disponible en `docs/esquemas/estructura-bd-v2.sql`
+
 ## 🚀 En desarrollo...
 
 Este proyecto se encuentra en etapa de construcción paso a paso.
