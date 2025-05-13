@@ -104,6 +104,14 @@ Todas están relacionadas con la tabla `usuarios` mediante la clave foránea `us
 La relación tiene activado `ON DELETE CASCADE` para mantener la integridad referencial.  
 Las contraseñas se almacenan de forma segura utilizando hash generado por `password_hash()` en PHP.
 
+### 5.5 Despliegue y sincronización
+
+- El proyecto se ha subido al hosting real bajo el dominio `midiario.oswaldo.dev`
+- Se ha configurado el subdominio en cPanel para apuntar a la carpeta `public/`
+- Se activó el certificado SSL para navegación segura (HTTPS)
+- Se utilizó Git™ Version Control para clonar el repositorio desde GitHub
+- Ya es posible sincronizar fácilmente desde desarrollo local hasta producción
+
 ---
 
 ## 6. Funcionalidades implementadas
@@ -147,52 +155,3 @@ Resumen del trabajo realizado, lo que has aprendido y cómo valorarías el resul
 4. La vista genera el HTML que ve el usuario
 
 ---
-
-## 5. Desarrollo paso a paso
-
-### 5.1 Inicio del proyecto y GitHub
-
-Describe cómo iniciaste el repositorio, estructura inicial y primer push.
-
-### 5.2 Implementación inicial
-
-- Creación de carpetas
-- Controlador inicial
-- Vista de inicio
-- Layout general
-
----
-
-## 6. Funcionalidades implementadas
-
-| Funcionalidad               | Estado |
-|-----------------------------|--------|
-| Estructura MVC básica       |   ✅   |
-| Controlador frontal         |   ✅   |
-| Vista de inicio             |   ✅   |
-| Estilos base                |   ✅   |
-| Documentación inicial       |   ✅   |
-
----
-
-## 7. Mejoras previstas / Futuras funcionalidades
-
-- Añadir base de datos para guardar las entradas
-- Crear sistema de usuarios y login
-- Buscador de notas por palabra clave o fecha
-- Exportar entradas a TXT o CSV
-- Clasificación por categorías
-
----
-
-## 8. Conclusión
-
-Resumen del trabajo realizado, lo que has aprendido y cómo valorarías el resultado.
-
----
-
-## 9. Anexos
-
-- Enlaces al repositorio
-- Capturas de pantalla
-- Diagramas UML (ver carpeta `docs/esquemas/`)

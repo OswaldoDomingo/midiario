@@ -55,3 +55,9 @@ Este proyecto se encuentra en etapa de construcción paso a paso.
 - Se ha integrado **Bootstrap 5.3.3** desde CDN en el archivo `layout.php`
 - La plantilla principal carga tanto los estilos de Bootstrap como los propios (`css/estilos.css`)
 - Se ha dejado preparado el layout para insertar componentes de Bootstrap en las vistas
+
+## 🌐 Despliegue en Producción
+
+- Proyecto disponible en: [https://midiario.oswaldo.dev](https://midiario.oswaldo.dev)
+- Subdominio configurado con SSL y apuntando a carpeta `public/`
+- Se utiliza Git™ Version Control desde cPanel para sincronización con GitHub

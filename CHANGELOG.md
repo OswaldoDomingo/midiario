@@ -1,5 +1,15 @@
 # CHANGELOG
+## [0.3.0] - 2025-05-11
+### Añadido
+- Despliegue del proyecto en el servidor de producción (oswaldo.dev)
+- Subdominio `midiario.oswaldo.dev` apuntando a `/public`
+- SSL activado correctamente
+- Clonado del repositorio desde GitHub usando Git™ Version Control (cPanel)
+- Funcionalidad `testdb()` operativa en entorno real
 
+### Modificado
+- Archivo `Config.php`: añadido método `base_url()` y variable `$mvc_vis_css`
+- Archivo `layout.php`: ruta del CSS ahora dinámica según `Config::base_url()`
 
 ## [0.2.0] - 2025-05-10
 ### Añadido

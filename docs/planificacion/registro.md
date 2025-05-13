@@ -3,7 +3,23 @@
 > Este registro ha sido llevado por el desarrollador como muestra de planificación y control de tiempos, simulando un entorno profesional.
 
 ---
+## 📅 2025-05-11
 
+**🕒 Horario:**  
+Inicio: 16:00  
+Fin: 17:30  
+**Duración total:** 1 hora y 30 minutos
+
+**✅ Hitos alcanzados:**
+- Subida del proyecto al servidor
+- Creación del subdominio `midiario.oswaldo.dev`
+- Solución de errores 403, 404 y redirecciones
+- Activación y verificación de HTTPS
+- Configuración de Git™ Version Control (clonado desde GitHub)
+- Verificación de funcionamiento en producción
+- Preparación de documentación y propuesta del Tag `v0.3.0`
+
+---
 ## 📅 2025-05-10
 
 **🕒 Horario:**  
