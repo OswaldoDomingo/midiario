@@ -2,6 +2,7 @@
 config/Config.php
 config/Config.web.php
 
+
 # Presentación del proyecto
 docs/presentacion-tribunal.md
 docs/*.jpg
