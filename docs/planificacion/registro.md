@@ -1,6 +1,25 @@
 # Registro de actividad del proyecto
 
 > Este registro ha sido llevado por el desarrollador como muestra de planificación y control de tiempos, simulando un entorno profesional.
+---
+## 📅 2025-05-14
+
+**🕒 Horario:**  
+Inicio: 16:15  
+Fin: 17:45  
+**Duración total:** 1 hora y 30 minutos
+
+**✅ Hitos alcanzados:**
+- Implementación del modelo `Usuario.php` con:
+  - Validación de correo (formato y duplicados)
+  - Validación de nombre (mínimo 3 caracteres)
+  - Validación de contraseña segura (8+ caracteres, mayúscula, número y símbolo)
+  - Encriptado de contraseña con `password_hash()`
+  - Sistema de errores con propiedad `$errores` por campo
+- Preparación del modelo para integración con formularios (`placeholder` con errores)
+- Creación y validación de `tests/test-db.php` y `tests/test-usuario.php` en entorno local
+- Confirmación de conexión local a la base de datos funcional
+- Preparación de documentación para `CHANGELOG.md` y release `v0.4.0`
 
 ---
 ## 📅 2025-05-13
